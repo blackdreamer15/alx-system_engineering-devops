@@ -15,3 +15,5 @@
 !1-dictionary_attack
 rockyou.txt
 user_authenticating_into_server
+!0-nginx_likes_port_80
+!1-debugging_made_short
