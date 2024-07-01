@@ -26,6 +26,7 @@ rockyou.txt
 
 # 0x0B-ssh
 !0-use_a_private_key
+!1-create_ssh_key_pair
 
 # 0x0D-web_stack_debugging_0
 !0-give_me_a_page
