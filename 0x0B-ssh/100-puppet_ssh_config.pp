@@ -9,8 +9,9 @@ file_line { 'Turn off passwd auth':
 }
 
 file_line { 'Delare identity file':
-  ensure => present,
-  path   => '/etc/ssh/ssh_config',
-  line   => '     IdentityFile ~/.ssh/school',
-  replace => true,
+  path               => '/etc/ssh/ssh_config',
+  line               => '    IdentityFile ~/.ssh/school',
+  match              => '^[#]+[\s]*(?i)IdentityFile[\s]+~/.ssh/id_rsa$',
+  replace            => true,
+  append_on_no_match => true
 }
