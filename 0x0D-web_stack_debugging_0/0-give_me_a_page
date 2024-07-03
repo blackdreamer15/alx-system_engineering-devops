@@ -1,0 +1,3 @@
+#!/bin/usr/env bash
+# Script to fix apache server in a container
+service apache2 start
