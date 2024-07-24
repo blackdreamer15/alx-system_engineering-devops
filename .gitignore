@@ -7,18 +7,26 @@
 # Unignore all dirs
 !*/
 
-### Above combination will ignore all files without extension ###
-
-# Unignore
-!zombie
-!0-sniffing
-!1-dictionary_attack
-rockyou.txt
-user_authenticating_into_server
-!2-setup_datadog
-!0-nginx_likes_port_80
-!1-debugging_made_short
-!0-give_me_a_page
-
 # Ignore Python cache directories
 __pycache__/
+
+### Above combination will ignore all files without extension ###
+
+# 0x05-processes_and_signals
+!zombie
+
+# attack_and_defense
+!0-sniffing
+!1-dictionary_attack
+user_authenticating_into_server
+rockyou.txt
+
+# 0x18-webstack_monitoring
+!2-setup_datadog
+
+# 0x0D-web_stack_debugging_0
+!0-give_me_a_page
+
+# 0x0E-web_stack_debugging_1
+!0-nginx_likes_port_80
+!1-debugging_made_short
