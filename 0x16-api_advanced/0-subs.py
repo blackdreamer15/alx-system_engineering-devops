@@ -6,10 +6,11 @@ and return the number of subscribers
 """
 import requests
 
+
 def number_of_subscribers(subreddit):
     """Retrieves number of subscribers for a given subreddit."""
     url = f"https://www.reddit.com/r/{subreddit}/about.json"
-    headers = {'User-Agent': 'reddit_api/0-subs/1.0'}
+    headers = {'User-Agent': 'custom'}
 
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
