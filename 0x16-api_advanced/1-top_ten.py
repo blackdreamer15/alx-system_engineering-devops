@@ -13,7 +13,7 @@ def top_ten(subreddit):
     headers = {"User-agent": "Custom"}
     params = {"limit": 10}
 
-    response = requests.get(url, headers=headers, params=params)
+    response = requests.get(url, headers=headers, params=params, allow_redirects=False)
 
     if response.status_code == 200:
         [print(child.get("data").get("title"))
