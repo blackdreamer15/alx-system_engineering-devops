@@ -38,3 +38,4 @@ rockyou.txt
 
 #0x1A-application_server
 !2-app_server-nginx_config
+!3-app_server-nginx_config
