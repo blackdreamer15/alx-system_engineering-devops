@@ -40,4 +40,5 @@ rockyou.txt
 !2-app_server-nginx_config
 !3-app_server-nginx_config
 !4-app_server-nginx_config
+!4-reload_gunicorn_no_downtime
 !5-app_server-nginx_config
